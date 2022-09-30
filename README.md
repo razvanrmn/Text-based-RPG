@@ -1,9 +1,15 @@
-# HogwartsExperience
-Proiect OOP 
+# Hogwarts Experience
+Proiect OOP
 
-Raspunsul pentru prima intrebare este Yes scris identic ca aici, in caz contrar programul ti se va inchide.
-Dupa ce iti spune Sorting hat poezia, trebuie sa alegi dintre cele 4 atribute ca sa fii distribuit intr-o casa, acestea sunt : 
+Salut ! 
+Acesta este primul meu proiect in Java.
+La prima intrebare trebuie sa scrii "Yes" pentru a trece mai departe, in caz contrar programul se inchide.
+Pentru a naviga prin meniu foloseste cifra aferenta fiecarei optiuni, daca doresti sa iesi din meniul respectiv si/sau din tot meniul dupa finalizarea cumparaturilor apsa 0.
+La un moment dat Sorting Hat iti va spune o poezie inainte sa te repartizeze intr-o anumita casa, dupa ce termina ce are de spus, alege una din aceste atribute pentru a fi repartizat in casa respectiva. Daca alegi altceva nu vei fi acceptat la HOGWARTS.
+Atributele sunt urmatoare : 
 -Bravery
 -Intelligence
 -Empathy
 -Ambition
+
+That's All Folks !
