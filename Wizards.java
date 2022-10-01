@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 public class Wizards {
     public static void main(String args[]) throws InterruptedException {
         //Prologue
-        System.out.println("Welcome to my Tect-based RPG");
+        System.out.println("Welcome to my Text-based RPG");
         System.out.println("Press any key to contiune....");
         TimeUnit.SECONDS.sleep(1);
         try
