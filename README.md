@@ -1,15 +1,9 @@
-# Hogwarts Experience
-Proiect OOP
-
-Salut ! 
-Acesta este primul meu proiect in Java.
-La prima intrebare trebuie sa scrii "Yes" pentru a trece mai departe, in caz contrar programul se inchide.
-Pentru a naviga prin meniu foloseste cifra aferenta fiecarei optiuni, daca doresti sa iesi din meniul respectiv si/sau din tot meniul dupa finalizarea cumparaturilor apasa 0.
-La un moment dat Sorting Hat iti va spune o poezie inainte sa te repartizeze intr-o anumita casa, dupa ce termina ce are de spus, alege una din aceste atribute pentru a fi repartizat in casa potrivita. Daca alegi altceva nu vei fi acceptat la HOGWARTS.
-Atributele sunt urmatoare : 
--Bravery
--Intelligence
--Empathy
--Ambition
+The inspiration for this project came from the Harry Potter series by J. K. Rowling, respectively the first volume entitled Harry Potter and the Philosopher's Stone.
+~Requirements : Java SE Development Kit (JDK) 
+-Run
+Step 1 : Compile
+javac Wizards.java
+Step 2 : Run
+java Wizards
 
 That's All Folks !
