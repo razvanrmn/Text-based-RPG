@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 public class Wizards {
     public static void main(String args[]) throws InterruptedException {
         //Prologue
-        System.out.println("Welcome to my Text-based RPG");
+        System.out.println("Welcome to my Tect-based RPG");
         System.out.println("Press any key to contiune....");
         TimeUnit.SECONDS.sleep(1);
         try
@@ -51,7 +51,7 @@ public class Wizards {
         int menuC = -1;
 
         while (mainMenu != 0) {
-            System.out.println("What whould you like to purchase ?\n");
+            System.out.println("What would you like to purchase ?\n");
             System.out.println("1. Uniform\n");
             System.out.println("2. Set books\n");
             System.out.println("3. Other equipment\n");
@@ -68,7 +68,7 @@ public class Wizards {
                         menuA = sc.nextInt();
                         switch (menuA) {
                             case 1:
-                                System.out.println("How many ?");
+                                System.out.println("How many?");
                                 int quantityI = sc.nextInt();
                                 if (quantityI > blackWorkRobes.getQuantity()) {
                                     System.out.println("You want more robes than we have on stock");
@@ -83,7 +83,7 @@ public class Wizards {
                                 }
                                 break;
                             case 2:
-                                System.out.println("How many ?");
+                                System.out.println("How many?");
                                 int quantityII = sc.nextInt();
                                 if (quantityII > blackPointedHat.getQuantity()) {
                                     System.out.println("You want more robes than we have on stock");
@@ -98,7 +98,7 @@ public class Wizards {
                                 }
                                 break;
                             case 3:
-                                System.out.println("How many ?");
+                                System.out.println("How many?");
                                 int quantityIII = sc.nextInt();
                                 if (quantityIII > protectiveGloves.getQuantity()) {
                                     System.out.println("You want more robes than we have on stock");
@@ -113,7 +113,7 @@ public class Wizards {
                                 }
                                 break;
                             case 4:
-                                System.out.println("How many ?");
+                                System.out.println("How many?");
                                 int quantityIV = sc.nextInt();
                                 if (quantityIV > winterCloak.getQuantity()) {
                                     System.out.println("You want more robes than we have on stock");
@@ -287,7 +287,7 @@ public class Wizards {
         TimeUnit.SECONDS.sleep(1);
         System.out.println("\nNow it's time make a deposit, let's go to Gringotts");
         TimeUnit.SECONDS.sleep(1);
-        System.out.println("\nHow much Galleons would you like to deposit ?");
+        System.out.println("\nHow many Galleons would you like to deposit?");
         double deposit = sc.nextDouble();
         muggle.galleonDeposit(deposit);
         muggle.galleonCheck();
