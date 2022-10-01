@@ -5,8 +5,9 @@ import java.util.concurrent.TimeUnit;
 public class Wizards {
     public static void main(String args[]) throws InterruptedException {
         //Prologue
-        System.out.println("Welcome to my Tect-based RPG");
-        System.out.println("Press any key to contiune....");
+        System.out.println("Welcome to my Text-based RPG");
+        System.out.println("Based on the novel Harry Potter J. K. Rowling");
+        System.out.println("Press any key to continue....");
         TimeUnit.SECONDS.sleep(1);
         try
         {
@@ -127,6 +128,7 @@ public class Wizards {
                                     System.out.println("\nPayment Successful\n");
                                 }
                                 break;
+                            default: System.out.println("Invalid option");
                         }
                     }
                     break;
@@ -216,6 +218,7 @@ public class Wizards {
                                     System.out.println("\nPayment Successful\n");
                                 }
                                 break;
+                            default: System.out.println("Invalid option");
                         }
                     }
                     break;
@@ -276,6 +279,7 @@ public class Wizards {
                                     System.out.println("\nPayment Successful\n");
                                 }
                                 break;
+                            default: System.out.println("Invalid option");
                         }
                     }
                     break;
@@ -311,7 +315,7 @@ public class Wizards {
         System.out.println("Where you ought to be...");
         System.out.println("...put me on! Don't be afraid");
         System.out.println("And don't get in a flap");
-        System.out.println("Your're in safe hands (though I have none)");
+        System.out.println("You are in safe hands (though I have none)");
         System.out.println("For I'm a Thinking Cap!\n");
         TimeUnit.SECONDS.sleep(1);
         System.out.println("Ambition?");
@@ -361,6 +365,7 @@ public class Wizards {
                     case 5:
                         muggle.lumos(spell.nextBoolean());
                         break;
+                    default: System.out.println("Invalid option");
                 }
         }
         TimeUnit.SECONDS.sleep(1);
