@@ -4,13 +4,27 @@ import java.util.concurrent.TimeUnit;
 
 public class Wizards {
     public static void main(String args[]) throws InterruptedException {
+        //Prologue
+        System.out.println("Welcome to my Tect-based RPG");
+        System.out.println("Press any key to contiune....");
+        TimeUnit.SECONDS.sleep(1);
+        try
+        {
+            System.in.read();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        // Chapter I
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name : ");
         String name = sc.next();
         Hogwarts muggle = new Hogwarts(name);
-        System.out.println("Would you like to apply to Hogwarts ?");
+        System.out.println("Would you like to apply to Hogwarts ?\n\t\t\tY/N");
         String answer = sc.next();
-        muggle.letter(name, answer);
+        muggle.letter(name, answer.toUpperCase());
+        // Chapter II
         FirstYearShoppingList blackWorkRobes = new FirstYearShoppingList(10, 3214);
         FirstYearShoppingList blackPointedHat = new FirstYearShoppingList(10, 47);
         FirstYearShoppingList protectiveGloves = new FirstYearShoppingList(10, 22);
@@ -41,6 +55,7 @@ public class Wizards {
             System.out.println("1. Uniform\n");
             System.out.println("2. Set books\n");
             System.out.println("3. Other equipment\n");
+            System.out.println("0. Exit");
             mainMenu = sc.nextInt();
             switch (mainMenu) {
                 case 1:
@@ -49,6 +64,7 @@ public class Wizards {
                         System.out.println("2. Plain pointed hat");
                         System.out.println("3. Protective gloves");
                         System.out.println("4. Winter cloak");
+                        System.out.println("0. Exit");
                         menuA = sc.nextInt();
                         switch (menuA) {
                             case 1:
@@ -125,6 +141,7 @@ public class Wizards {
                         System.out.println("6. Magical Drafts and Potions");
                         System.out.println("7. Fantastic Beasts and Where to Find Them");
                         System.out.println("8. The Dark Forces: A Guide to Self-Protection");
+                        System.out.println("0. Exit");
                         menuB = sc.nextInt();
                         switch (menuB) {
                             case 1:
@@ -210,6 +227,7 @@ public class Wizards {
                         System.out.println("3. Set of glass or crystal phials");
                         System.out.println("4. Telescope");
                         System.out.println("5. Set of brass scales");
+                        System.out.println("0. Exit");
                         menuC = sc.nextInt();
                         switch (menuC) {
                             case 1:
@@ -263,6 +281,7 @@ public class Wizards {
                     break;
             }
         }
+        // Chapter III
         System.out.println("\nAfter purchasing necessary books and equipment from Diagon Alley ");
         muggle.galleonCheck();
         TimeUnit.SECONDS.sleep(1);
@@ -272,12 +291,14 @@ public class Wizards {
         double deposit = sc.nextDouble();
         muggle.galleonDeposit(deposit);
         muggle.galleonCheck();
+        // Chapter IV
         System.out.println("\nHead to King's Cross station, Platform 9 3/4 to catch Hogwarts Express");
         TimeUnit.SECONDS.sleep(1);
         System.out.println("......................................................................");
         TimeUnit.SECONDS.sleep(1);
         System.out.println("\nYou made it to Hogwarts !!");
         TimeUnit.SECONDS.sleep(1);
+        // Chapter V
         System.out.println("\nHave a seat at Great Hall, the sorting ceremony will begin soon");
         TimeUnit.SECONDS.sleep(1);
         System.out.println("...............................................................");
@@ -292,11 +313,24 @@ public class Wizards {
         System.out.println("And don't get in a flap");
         System.out.println("Your're in safe hands (though I have none)");
         System.out.println("For I'm a Thinking Cap!\n");
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("Ambition?");
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("Bravery?");
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("Intelligence?");
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("Empathy?");
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("Type what defines you...");
+        TimeUnit.SECONDS.sleep(1);
         String trait = sc.next();
-        muggle.sortingHat(trait);
+        muggle.sortingHat(trait.toUpperCase());
+        TimeUnit.SECONDS.sleep(2);
         System.out.println(muggle.getHouse());
         System.out.println();
         System.out.println("\nLet the feast begin\n");
+        // Chapter VI
         TimeUnit.SECONDS.sleep(1);
         Random spell = new Random();
         int spellMenu = -1;
@@ -308,6 +342,7 @@ public class Wizards {
             System.out.println("3. Wingardium Leviosa\n");
             System.out.println("4. Avada Kedavra\n");
             System.out.println("5. Lumos\n");
+            System.out.println("0. Exit");
             spellMenu = sc.nextInt();
                 switch (spellMenu)
                 {
@@ -329,6 +364,7 @@ public class Wizards {
                 }
         }
         TimeUnit.SECONDS.sleep(1);
+        // Chapter VII
         System.out.println("\nGood luck in your first year at HOGWARTS\n");
     }
 }
