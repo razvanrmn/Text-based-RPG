@@ -1,4 +1,5 @@
-public class FirstYearShoppingList {
+public class FirstYearShoppingList
+{
     private int quantity;
     private int price;
 
@@ -25,4 +26,5 @@ public class FirstYearShoppingList {
     }
     }
 
-
+//Aici am declarat o Clasa pentru lista de iteme de care o sa ai nevoie la Hogwarts
+//Am facut un constructor si am folosit metota get si set pentru a putea sa lucrez cu pretul si cantitatea
