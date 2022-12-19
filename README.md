@@ -1,10 +1,8 @@
 <h1 align="center">Text Based RPG</h1>
-The inspiration for this project came from the Harry Potter series by J. K. Rowling, respectively the first volume entitled Harry Potter and the Philosopher's Stone.
-~Requirements : Java SE Development Kit (JDK) 
--Run
-Step 1 : Compile
-javac Wizards.java
-Step 2 : Run
-java Wizards
+<p align="center">
+<img src="imgRdm/1.png" width="100%" height="100%">
+<img src="imgRdm/2.png" width="100%" height="100%">
+<img src="imgRdm/3.png" width="100%" height="100%">
+<img src="imgRdm/4.png" width="100%" height="100%">
+</p
 
-That's All Folks !
